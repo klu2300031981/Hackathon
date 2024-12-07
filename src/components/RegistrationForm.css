@@ -1,0 +1,121 @@
+/* src/components/RegistrationForm.css */
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4;
+}
+
+.register-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.terms-and-conditions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.terms-and-conditions input {
+  margin-right: 10px;
+}
+
+.terms-and-conditions a {
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+.or-divider {
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+}
+
+.or-divider:before,
+.or-divider:after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  top: 50%;
+  background: #ccc;
+}
+
+.or-divider:before {
+  left: 0;
+}
+
+.or-divider:after {
+  right: 0;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.google-button {
+  background-color: #dd4b39;
+  color: white;
+}
+
+.google-button:hover {
+  background-color: #c23321;
+}
+
+.facebook-button {
+  background-color: #3b5998;
+  color: white;
+}
+
+.facebook-button:hover {
+  background-color: #2d4373;
+}
+
+.reset-password {
+  margin-top: 20px;
+}
+
+.reset-password a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.reset-password a:hover {
+  text-decoration: underline;
+}

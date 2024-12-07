@@ -1,0 +1,47 @@
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2d9ad9;
+}
+
+.navbar-logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar-links li a:hover {
+    color: #ddd; /* Slight hover effect */
+}
+
+/* Specific styling for the video call link (icon only) */
+.video-call {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.video-call i {
+    font-size: 1.5rem; /* Adjust icon size */
+    color: #28a745; /* Green color for the video icon */
+}
+
+.video-call:hover i {
+    color: #218838; /* Darker green on hover */
+}

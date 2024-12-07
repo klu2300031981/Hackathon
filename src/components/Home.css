@@ -1,0 +1,93 @@
+/* Overall Home Styling */
+.home {
+    padding: 40px;
+    background-color: #f4f7fa; /* Light background for a clean look */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Section styling with more space between sections */
+.session-section {
+    margin-bottom: 60px; /* Increased margin for better separation */
+}
+
+/* Flexbox layout for the session cards */
+.sessions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+/* Individual session card design */
+.session-box {
+    background-color: white;
+    border: none; /* Removed border */
+    border-radius: 12px;
+    padding: 25px;
+    width: calc(33% - 30px); /* Adjust to fit three cards per row */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern look */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.session-box:hover {
+    transform: translateY(-5px); /* Lifting effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+/* Updated session title color */
+.session-box h4 {
+    font-size: 1.5rem;
+    color: #157cca; /* Vibrant blue color for session titles */
+    margin-bottom: 15px;
+}
+
+.session-box p {
+    color: #031a22;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Button styling with gray color */
+.learn-more-btn {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #6c757d; /* Gray background color */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: #798289; /* Darker gray on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .session-box {
+        width: calc(50% - 30px); /* Two boxes per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .session-box {
+        width: 100%; /* One box per row on small screens */
+    }
+}

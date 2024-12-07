@@ -1,0 +1,71 @@
+.session-management {
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 650px;
+    text-align: center;
+}
+
+.session-management h2 {
+    color: #1f3f82;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.session-management input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 2px solid #00aaff;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.session-management input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Add box for buttons */
+.session-management button {
+    background-color: #f0f0f0; /* Light grey background for subtle box */
+    color: #007BFF; /* Blue text color */
+    padding: 10px 15px; /* Padding for box shape */
+    border: 2px solid #007BFF; /* Blue border to match the text color */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    font-size: 1.1em; /* Keep font size slightly larger */
+    width: auto; /* Button adjusts to text size */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+.session-management button:hover {
+    background-color: #363738; /* Blue background on hover */
+    color: white; /* White text on hover for contrast */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.session-management ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.session-management li {
+    padding: 15px;
+    border: 1px solid #00aaff;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.session-management li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

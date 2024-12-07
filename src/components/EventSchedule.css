@@ -1,0 +1,54 @@
+/* src/components/EventSchedule.css */
+.event-schedule {
+    padding: 25px;
+    max-width: 650px;
+    margin: 50px auto;
+    background-color: #f9f9f9; /* Softer, light gray background */
+    border-radius: 10px; /* Increased border radius for smoother edges */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Deeper shadow for a more prominent effect */
+    font-family: 'Arial', sans-serif;
+}
+
+.event-schedule h2 {
+    color: #22ff34; /* Bright coral for the heading */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.event-schedule input,
+.event-schedule textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 8px; /* More rounded inputs */
+    border: 1px solid #00aaff; /* Vibrant blue border */
+    background-color: #f1f1f1; /* Light gray background for inputs */
+    transition: border-color 0.3s ease; /* Smooth transition on focus */
+}
+
+.event-schedule input:focus,
+.event-schedule textarea:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.event-schedule button {
+    background-color: #28a745; /* Bright green for the button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px; /* More rounded button */
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.event-schedule button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.event-schedule button:active {
+    transform: scale(0.98); /* Press effect */
+}

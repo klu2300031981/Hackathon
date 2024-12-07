@@ -1,0 +1,97 @@
+/* src/components/Chatbot.css */
+.chatbot-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+    text-align: center;
+    border: 2px solid #00bfae; /* Accent border color */
+}
+
+.chatbot-window {
+    height: 300px;
+    overflow-y: scroll;
+    border: 2px solid #00bfae;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.chat-messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+.message {
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.message.bot {
+    background-color: #e1ffe4; /* Soft green for bot messages */
+    text-align: left;
+    border: 1px solid #00a86b;
+}
+
+.message.user {
+    background-color: #007bff; /* Blue for user messages */
+    color: white;
+    text-align: right;
+    border: 1px solid #0056b3;
+}
+
+.chatbot-input {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.chatbot-input input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #00bfae; /* Input border */
+    font-size: 1rem;
+    background-color: #f8f8f8; /* Light input background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.chatbot-input input:focus {
+    border-color: #00a86b; /* Green focus border */
+}
+
+.chatbot-input button {
+    background-color: #00bfae; /* Teal button */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chatbot-input button:hover {
+    background-color: #008f7a; /* Darker teal on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* More shadow on hover */
+}
+
+/* Add smooth transition for messages */
+.message.bot:hover {
+    background-color: #d6ffd8; /* Lighter green hover */
+}
+
+.message.user:hover {
+    background-color: #0056b3; /* Darker blue hover */
+}

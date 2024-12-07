@@ -1,0 +1,46 @@
+/* src/components/EventCard.css */
+.event-card {
+    background-color: #f8f9fa; /* Light gray background for a soft contrast */
+    border: 1px solid #d1d1d1; /* Slightly darker border */
+    border-radius: 12px; /* Slightly increased border-radius for smoother corners */
+    width: 260px; /* Adjusted width for better proportions */
+    padding: 20px;
+    margin: 15px;
+    text-align: left;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow for more depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transformation */
+}
+
+.event-card:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25); /* More prominent shadow on hover */
+}
+
+.event-card h3 {
+    font-size: 1.4em; /* Increased font size for headings */
+    margin-bottom: 10px;
+    color: #007bff; /* Vibrant blue color for headings */
+    font-weight: bold; /* Bold font for emphasis */
+}
+
+.event-card p {
+    color: #555; /* Dark gray for paragraph text */
+    font-size: 0.9em; /* Adjusted font size for readability */
+    line-height: 1.5; /* Increased line height for better readability */
+}
+
+.event-card button {
+    background-color: #229cff; /* Bright coral button for contrast */
+    color: white;
+    padding: 12px 18px; /* Slightly increased padding */
+    border: none;
+    border-radius: 8px; /* More rounded corners */
+    cursor: pointer;
+    font-weight: bold; /* Bold text for buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Transition for hover effect */
+}
+
+.event-card button:hover {
+    background-color: #e64a19; /* Darker coral on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}

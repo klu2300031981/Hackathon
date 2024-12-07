@@ -1,0 +1,44 @@
+/* src/components/SessionDetail.css */
+
+/* Styling for Submit Feedback button */
+.submit-btn {
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: darkgrey;
+}
+
+/* Other existing styles */
+.learn-more-btn {
+    /* Your existing styles for the learn more button */
+}
+
+.video-container {
+    margin-top: 20px;
+}
+
+.feedback-section {
+    margin-top: 30px;
+}
+
+.feedback-form {
+    margin-top: 15px;
+}
+
+.submitted-feedback {
+    margin-top: 30px;
+}
+
+.feedback-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}

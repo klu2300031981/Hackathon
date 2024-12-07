@@ -1,0 +1,30 @@
+/* src/components/EventSearch.css */
+.event-search {
+    margin: 30px auto; /* Added more space for better layout */
+    width: 60%; /* Slightly wider for a more modern look */
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Consistent font */
+}
+
+.event-search input {
+    width: 100%;
+    padding: 14px 22px; /* Increased padding for a more comfortable touch area */
+    font-size: 1.1rem; /* Slightly larger font for better readability */
+    border: 2px solid #2252ff; /* Bold coral border for a vibrant look */
+    border-radius: 8px; /* More rounded corners for a modern style */
+    background-color: #f1f1f1; /* Light background for contrast */
+    transition: all 0.3s ease; /* Smooth transition for border and background */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.event-search input:focus {
+    outline: none; /* Remove default outline */
+    border-color: #007bff; /* Bright blue border on focus */
+    background-color: #fff; /* White background when focused */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on focus */
+}
+
+.event-search input::placeholder {
+    color: #666; /* Subtle gray color for placeholder text */
+    font-style: italic; /* Italicized placeholder for a nice effect */
+}
